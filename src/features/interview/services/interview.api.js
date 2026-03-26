@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://resumeanalyzer-backend-lpjc.onrender.com/api/interview',
+    baseURL: 'https://resumeanalyzer-backend-lpjc.onrender.com',
     withCredentials: true
 });
 
