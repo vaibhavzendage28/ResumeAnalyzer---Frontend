@@ -327,21 +327,33 @@ VITE_API_URL=http://localhost:3000/api
 
 ## 🌐 Deployment
 
-### Vercel (Recommended for React/Vite)
+### Live Deployment
+
+The frontend is live and deployed on **Vercel**:
+
+🔗 **Frontend URL**: https://resume-analyzer-frontend-six-ivory.vercel.app/
+
+The backend API is deployed on **Render**:
+
+🔗 **Backend API**: https://resumeanalyzer-backend-lpjc.onrender.com
+
+### Deployment Instructions
+
+#### Vercel (Recommended for React/Vite)
 
 ```bash
 npm install -g vercel
 vercel
 ```
 
-### GitHub Pages
+#### GitHub Pages
 
 ```bash
 npm run build
 # Push dist/ folder to gh-pages branch
 ```
 
-### Traditional Hosting
+#### Traditional Hosting
 
 1. Build: `npm run build`
 2. Upload `dist/` folder to your server
@@ -393,6 +405,10 @@ This project is licensed under the ISC License.
 - [ ] Mobile app (React Native)
 - [ ] Advanced analytics dashboard
 - [ ] Multi-language support
+
+## 👤 Author
+
+**Vaibhav Zendage**
 
 ---
 
