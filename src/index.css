@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+#reports::-webkit-scrollbar {
+  display: none;
+}
+
+#interview::-webkit-scrollbar {
+  display: none;
+}
+
+#home::-webkit-scrollbar {
+  display: none;
+}
